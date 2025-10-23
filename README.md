@@ -34,8 +34,8 @@ Lab1_IOA_MNV3/
 ├── outputs/ ← Modelos entrenados y resultados
 ├── requirements.txt ← Paquetes necesarios
 └── src/
-├── train_mnv3.py ← Entrenamiento principal (transfer learning)
-└── hpo_optuna.py ← Optimización de hiperparámetros (Optuna)
+│ ├── train_mnv3.py ← Entrenamiento principal (transfer learning)
+│ └── hpo_optuna.py ← Optimización de hiperparámetros (Optuna)
 ```
 
 
