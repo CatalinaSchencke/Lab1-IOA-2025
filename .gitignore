@@ -1,0 +1,15 @@
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+.nbconvert/
+.ipynb_checkpoints
+.python_history
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
