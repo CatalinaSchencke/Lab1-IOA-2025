@@ -169,7 +169,7 @@ def main():
     lr    = bp.get('lr', 1e-3);  wd    = bp.get('wd', 1e-4)
     print('\nEjecuta entrenamiento final con:')
     print(f'python .\\src\\train_mnv3.py --data_dir .\\data --img_size {args.img_size} --batch {batch} --accum {accum} '
-          f'--epochs_head 2 --epochs_ft 15 --patience 5 --lr {lr} --wd {wd} --workers {args.workers} --outfile sample_submission.CSV')
+          f'--epochs_head 2 --epochs_ft 15 --patience 5 --lr {lr} --wd {wd} --workers {args.workers} --outfile ./data/sample_submission.csv')
 
 if __name__ == '__main__':
     # Punto de entrada: inicia el estudio de Optuna
